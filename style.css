@@ -55,13 +55,17 @@ main {
   flex-direction: column;
   align-items: center;
   padding: 4rem 2rem;
-  background: #e0e0e0;
+  /* background: #e0e0e0; */
+  justify-content: center;
   text-align: center;
+  min-height: 50vh;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
+    url('/assets/grass.jpg') center/cover no-repeat;
 }
 
 .profile-pic {
-  width: 160px;
-  height: 160px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 1rem;
@@ -70,12 +74,12 @@ main {
 .hero h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
-  color: #222;
+  color: #ffffff;
 }
 
 .hero p {
   font-size: 1.2rem;
-  color: #444;
+  color: #ffffff;
 }
 
 /* Sections */
@@ -186,6 +190,11 @@ footer {
   background: #1a1a1a;
   color: #fff;
   margin-top: auto;
+  font-size: 0.6rem;
+}
+.templet {
+  color: #3a3aff;
+  text-decoration: none;
 }
 
 /* Responsive */
