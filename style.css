@@ -24,7 +24,7 @@ main {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background: #111;
+  background: #1a1a1a;
   color: #fff;
 }
 
@@ -183,7 +183,7 @@ section h2 {
 footer {
   text-align: center;
   padding: 1rem;
-  background: #111;
+  background: #1a1a1a;
   color: #fff;
   margin-top: auto;
 }
